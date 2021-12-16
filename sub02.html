@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sujin's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+  </head>
+  <body>
+
+<div class="sub">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html"><img src="img/logo_sub.png" alt=""></a></li>
+          <li><a href="sub01.html">Editorial</a></li>
+          <li><a href="sub02.html"><font color=#1F5190>Package</font></a></li>
+          <li><a href="sub03.html">Identity</a></li>
+          <li><a href="sub04.html">More</a></li>
+        </ul>
+      </nav>
+    </header>
+</div>
+
+<div class="s2">
+        <section>
+          <div class="visual">
+            <div class="visual_img fade-in-bottom">
+              <img src="img/tit_package.png" alt="" >
+        </div>
+        </div>
+
+        <div class="contents">
+          <div class="wero" data-aos="fade-right" data-aos-duration="1000">
+            <div class="wero_tit">
+              <img src="img/wero_tit.png" alt="" >
+            </div>
+            <div class="wero_txt01">
+              <p>WEROSOAP은
+                'We: 우리 함께', 'Waste: 쓰레기 없이', <br>'Wash: 샴푸바를 사용하자'는 의미와
+                '제로웨이스트 캠페인'을<br> 아이템으로 W와 Zero를 합쳐서 만든 샴푸바 브랜드이다.</p>
+            </div>
+            <div class="wero_product">
+            <img src="img/wero_01.png" alt="" >
+            </div>
+            <div class="wero_txt02">
+              <p>비닐과 플라스틱을 사용하지 않기 위해 샴푸바는 종이 띠지로 감쌌다.<br>
+                재생 가능한 원단을 사용한 패브릭 파우치에 열전사지를 사용해 로고를 올렸다.<br>
+                파우치는 소비자가 일상 생활 속에서도 얼마든지 다양한 용도로 재사용할 수 있다.</p>
+            </div>
+            <div class="wero_package">
+            <img src="img/wero_02.png" alt="" >
+            </div>
+            <div class="wero_txt03">
+              <p>지구에게 보내는 시그널이라는 의미로 주파수를 연상시키는 로고를 제작했다.<br>
+                패턴과 단색의 북극곰을 교차시켜 마치 녹아내리는듯한 북극곰 태그를 제작하여<br>
+                지구온난화의 심각성에 대한 메시지를 전달하고자 했다. 단순히 태그의 역할만이<br>
+                아니라 파우치의 키링 역할도 할 수 있도록 디자인했다.</p>
+            </div>
+          </div>
+          <div class="cmore" data-aos="fade-right" data-aos-duration="1000">
+            <div class="cmore_tit">
+              <img src="img/cmore_tit.png" alt="" >
+            </div>
+            <div class="cmore_txt01">
+              <p>CMORE는 실종 아동 찾기를 의미하는 ‘더 많은 것을 봐달라’는 뜻과<br>
+                 ‘Cereal’의 ‘C’를 합쳐서 만든 시리얼 브랜드이다. 실종 아동 찾기<br>
+                 광고를 패키지에 보다 자연스럽게 어우러지도록 녹여내고자 했다.</p>
+            </div>
+            <div class="cmore_product">
+            <img src="img/cmore_01.png" alt="" >
+            </div>
+            <div class="cmore_txt02">
+              <p>전체적인 패키지 콘셉트는 QR코드를 활용한 컬러풀한 색감의 패턴으로 선정했다.<br>
+                QR 코드 패턴과 잘 어우러지는 픽셀 아트 콘셉트의 로고를 제작했다.</p>
+            </div>
+            <div class="cmore_package">
+            <img src="img/cmore_02.png" alt="" >
+            </div>
+            <div class="cmore_txt03">
+              <p>박스 안에 위생적이고 간편하게 1회 섭취량으로 소분한 봉지가 들어가는<br>
+                구성으로 제작했다. QR코드에 접속하면 실종 아동 찾기 포스터로 연결된다.</p>
+            </div>
+          </div>
+
+        </div>
+</section>
+</div>
+<footer>
+Copyright 2021 Sujin Kim. All Rights Reserved.
+</footer>
+
+<!--AOS 스트립트 적용 부문 시작-->
+<script src="js/aos.js"></script>
+<script>
+  AOS.init({
+    easing: 'ease-in-out-sine'
+  });
+</script>
+<!--AOS 스트립트 적용 부문 끝-->
+
+<!--특정위치로 쩜프해서 이동 시작 : 마지막 숫자를 조절하면 속도조절이 됩니다.-->
+<script type="text/javascript" src="js/jquery-latest.js"></script>
+<script>
+    function fnMove(seq){
+        var offset = $("#anchor" + seq).offset();
+        $('html, body').animate({scrollTop : offset.top},500);
+    }
+</script>
+<!--특정위치로 쩜프해서 이동 끝-->
+
+</body>
+</html>

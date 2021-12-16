@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sujin's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html"><img src="img/logo_index.png" alt=""></a></li>
+          <li><a href="sub01.html">Editorial</a></li>
+          <li><a href="sub02.html">Package</a></li>
+          <li><a href="sub03.html">Identity</a></li>
+          <li><a href="sub04.html">More</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+        <section>
+          <div class="bg">
+
+          <div class="title fade-in-top">
+            <img src="img/tit.png" alt="">
+          </div>
+
+        <div class="profile_box" data-aos="fade-up" data-aos-duration="1000">
+          <div class="profile_title">
+          <img src="img/name.png" alt="">
+        </div>
+          <div class="profile_info" alt="">
+            <p>2001.11.10<br>
+            +82 010-9076-8053><br>
+            zzdur1110@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="education_box" data-aos="fade-right" data-aos-duration="1000">
+          <p>Education</p>
+          <div class="education_img">
+          <img src="img/education.png" alt="">
+        </div>
+      </div>
+
+      <div class="awards_box" data-aos="fade-left" data-aos-duration="1000">
+        <p>Awards</p>
+        <div class="awards_img">
+        <img src="img/awards.png" alt="">
+      </div>
+    </div>
+
+          <div class="skill_box" data-aos="fade-up" data-aos-duration="1000">
+          <p>Skill</p>
+          <div class="skill_img">
+            <img src="img/skill_g.png" alt="">
+          </div>
+          </div>
+
+          <div class="portfolio_box" data-aos="fade-up" data-aos-duration="1000">
+            <p>Portfolio</p>
+            <div class="p_top">
+            <ul>
+              <li><a href="sub01.html"><img src="img/edit.png" alt=""></a></li>
+              <li><a href="sub02.html"><img src="img/package.png" alt=""></a></li>
+              </ul>
+            </div>
+
+            <div class="p_bottom">
+            <ul>
+              <li><a href="sub03.html"><img src="img/Identity.png" alt=""></a></li>
+              <li><a href="sub04.html"><img src="img/more.png" alt=""></a></li>
+              </ul>
+            </div>
+          </div>
+</div>
+        </section>
+        <footer>
+  Copyright 2021 Sujin Kim. All Rights Reserved.
+        </footer>
+
+        <!--AOS 스트립트 적용 부문 시작-->
+        <script src="js/aos.js"></script>
+        <script>
+          AOS.init({
+            easing: 'ease-in-out-sine'
+          });
+        </script>
+        <!--AOS 스트립트 적용 부문 끝-->
+
+        <!--특정위치로 쩜프해서 이동 시작 : 마지막 숫자를 조절하면 속도조절이 됩니다.-->
+        <script type="text/javascript" src="js/jquery-latest.js"></script>
+        <script>
+            function fnMove(seq){
+                var offset = $("#anchor" + seq).offset();
+                $('html, body').animate({scrollTop : offset.top},500);
+            }
+        </script>
+        <!--특정위치로 쩜프해서 이동 끝-->
+
+      </body>
+        </html>

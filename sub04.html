@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sujin's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+  </head>
+  <body>
+
+<div class="sub">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html"><img src="img/logo_sub.png" alt=""></a></li>
+          <li><a href="sub01.html">Editorial</a></li>
+          <li><a href="sub02.html">Package</a></li>
+          <li><a href="sub03.html">Identity</a></li>
+          <li><a href="sub04.html"><font color=#1F5190>More</font></a></li>
+        </ul>
+      </nav>
+    </header>
+</div>
+
+<div class="s4">
+        <section>
+          <div class="visual">
+            <div class="visual_img fade-in-bottom">
+              <img src="img/tit_more.png" alt="" >
+        </div>
+        </div>
+
+        <div class="contents">
+          <div class="kim" data-aos="fade-right" data-aos-duration="1000">
+          <div class="kim_tit">
+          <img src="img/kim_tit.png" alt="">
+          </div>
+          <div class="kim_txt">
+            <p>김민주 디자이너의 컬러풀한 일러스트 이미지를 김민주 디자이너의 유니크함을 <br>
+              강조했다. 이미지 콘텐츠가 주이기 때문에 헤더를 투명하게 처리함으로써<br>
+              시각적으로 답답하지 않고 시원하게 보여지도록 제작했다.</p>
+          </div>
+          <div class="kim_product">
+          <img src="img/kim.png" alt="" >
+          </div>
+          <div class="kim_button">
+          <a href="https://durs17.github.io/kimminju/" target="_blank"><img src="img/kim_go.png" alt="" ></a>
+          </div>
+        </div>
+
+        <div class="motion" data-aos="fade-right" data-aos-duration="1000">
+        <div class="motion_tit">
+        <img src="img/motion_tit.png" alt="">
+        </div>
+        <div class="motion_txt">
+          <p>스크린 독과점의 문제점을 인포그래픽으로 나타낸 모션그래픽이다.<br>
+            상업 영화의 상영과 배급의 독점으로 독립 영화의 입지가 줄어드는<br>
+            실태를 알리기 위해서, 메타포를 활용해 모션그래픽을 제작하였다.</p>
+        </div>
+        <div class="motion_product">
+        <iframe width="800" height="480" src="https://www.youtube.com/embed/jytcxvLMjM0"
+        title="YouTube video player" frameborder="0" allow="accelerometer;
+        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+        </div>
+      </div>
+
+        </div>
+</section>
+</div>
+<footer>
+Copyright 2021 Sujin Kim. All Rights Reserved.
+</footer>
+
+<!--AOS 스트립트 적용 부문 시작-->
+<script src="js/aos.js"></script>
+<script>
+  AOS.init({
+    easing: 'ease-in-out-sine'
+  });
+</script>
+<!--AOS 스트립트 적용 부문 끝-->
+
+<!--특정위치로 쩜프해서 이동 시작 : 마지막 숫자를 조절하면 속도조절이 됩니다.-->
+<script type="text/javascript" src="js/jquery-latest.js"></script>
+<script>
+    function fnMove(seq){
+        var offset = $("#anchor" + seq).offset();
+        $('html, body').animate({scrollTop : offset.top},500);
+    }
+</script>
+<!--특정위치로 쩜프해서 이동 끝-->
+
+</body>
+</html>
